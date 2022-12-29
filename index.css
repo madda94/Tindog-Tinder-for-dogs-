@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+img {
+    width: 100%;
+}
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+}
+header img {
+    width: 8%;
+}
+#logo-image {
+    width: 18%;
+}
+
+main {
+    position: relative;
+    margin: .2em;
+}
+main img {
+    border-radius: 12px;
+}
+main h1, main p, #badge-like, #badge-nope {
+    position: absolute;
+}
+#badge-like {
+    display: none;
+    width: 50%;
+    top: 30px;
+    left: 0;
+    transform: rotate(-30deg);
+}
+#badge-nope {
+    display: none;
+    width: 50%;
+    top: 30px;
+    left: 0;
+    transform: rotate(-30deg);
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #F8F8F8;
+    left: 15px;
+    bottom: 40px;
+}
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #B7B7B7;
+    left: 15px;
+    bottom: 0px;
+}
+footer {
+    justify-content: center;
+    gap: 1em;   
+}
+footer img {
+    width: 8%;
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0px 10px 20px #ddc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#reject-btn:hover,
+#reject-btn:hover {
+    background: #FFE7EF;
+}
+#accept-btn:hover,
+#accept-btn:focus {
+    background: #DBFFF4;
+}
